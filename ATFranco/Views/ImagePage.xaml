@@ -1,0 +1,50 @@
+﻿<!--Copyright (c) Dapper Apps.  All rights reserved.
+    Use of this source code is subject to the terms of the Dapper Apps license 
+    agreement under which you licensed this sample source code and is provided AS-IS.
+    If you did not accept the terms of the license agreement, you are not authorized 
+    to use this sample source code.  For the terms of the license, please see the 
+    license agreement between you and Dapper Apps.
+    
+    To see the article about this app, visit http://www.dapper-apps.com/DapperToolkit-->
+
+<v:ViewBase
+    x:Class="ATFranco.Views.ImagePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:v="clr-namespace:ATFranco.Views"
+    xmlns:dappertoolkit="clr-namespace:DapperApps.Phone.Controls;assembly=DapperApps.Phone.Controls.Toolkit"
+    xmlns:sltoolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <sltoolkit:TransitionService.NavigationInTransition>
+        <sltoolkit:NavigationInTransition>
+            <sltoolkit:NavigationInTransition.Forward>
+                <sltoolkit:SlideTransition Mode="SlideDownFadeIn"/>
+            </sltoolkit:NavigationInTransition.Forward>
+        </sltoolkit:NavigationInTransition>
+    </sltoolkit:TransitionService.NavigationInTransition>
+    <sltoolkit:TransitionService.NavigationOutTransition>
+        <sltoolkit:NavigationOutTransition>
+            <sltoolkit:NavigationOutTransition.Backward>
+                <sltoolkit:SlideTransition Mode="SlideDownFadeOut"/>
+            </sltoolkit:NavigationOutTransition.Backward>
+        </sltoolkit:NavigationOutTransition>
+    </sltoolkit:TransitionService.NavigationOutTransition>
+
+    <dappertoolkit:PageRotationService.PageRotationAnimation>
+        <dappertoolkit:PageRotationAnimation/>
+    </dappertoolkit:PageRotationService.PageRotationAnimation>
+
+    <!--TODO Glitch where opening and closing the ApplicationBar resizes the PTZImage-->
+    <dappertoolkit:PTZImage x:Name="Image"/>
+
+</v:ViewBase>

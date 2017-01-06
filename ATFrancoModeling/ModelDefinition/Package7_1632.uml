@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e919453c-9177-4cc7-ac4e-77dd11ec4b1f"
+  name="Location"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2acc11ff-2e8b-48df-9723-8615471a8cc6"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Device.Location"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ee33c0f2-0f7a-45c0-a095-ff266b707dda"
+        name="GeoCoordinate"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="86767064-88a5-4802-bb95-e4c3d8b8a1cb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Device.dll&quot; Namespace%3DSystem.Device.Location Type%3DGeoCoordinate"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="81a06e18-3af6-4db0-a4d4-5af4faa17932"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dfd57900-c096-41a2-af31-403b8528a41d">
+                <propertyInstance
+                  Id="3fa954b4-21a2-4a82-8f0a-2114258958b9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5af19149-b226-46a2-b668-ecbc0ab83dc2">
+                <propertyInstance
+                  Id="2c475771-73ae-46be-8b73-b4dc5516bf57"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e59baa7-5878-439f-90fb-0851d84c0975">
+                <propertyInstance
+                  Id="17d49311-9a14-4f2b-9411-944cc5f558ea"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b66fc72e-adb4-480c-bc5c-1173d853e729">
+                <propertyInstance
+                  Id="8f201a72-559e-4826-8666-65a48dded168"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2bcd8c55-2b39-4835-9cb4-0bab0de1e99e">
+                <propertyInstance
+                  Id="c7aa8d3d-367f-4fb8-9ee8-b74b01a961e9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

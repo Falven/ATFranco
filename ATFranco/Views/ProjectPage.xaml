@@ -1,0 +1,116 @@
+﻿<v:ViewBase
+    x:Class="ATFranco.Views.ProjectPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:c="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:p="clr-namespace:Microsoft.Phone.Controls.Primitives;assembly=Microsoft.Phone.Controls"
+    xmlns:v="clr-namespace:ATFranco.Views"
+    xmlns:dappertoolkit="clr-namespace:DapperApps.Phone.Controls;assembly=DapperApps.Phone.Controls.Toolkit"
+    xmlns:sltoolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:vm="clr-namespace:ATFranco.ViewModels"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <sltoolkit:TransitionService.NavigationInTransition>
+        <sltoolkit:NavigationInTransition>
+            <sltoolkit:NavigationInTransition.Backward>
+                <sltoolkit:TurnstileTransition Mode="BackwardIn"/>
+            </sltoolkit:NavigationInTransition.Backward>
+            <sltoolkit:NavigationInTransition.Forward>
+                <sltoolkit:TurnstileTransition Mode="ForwardIn"/>
+            </sltoolkit:NavigationInTransition.Forward>
+        </sltoolkit:NavigationInTransition>
+    </sltoolkit:TransitionService.NavigationInTransition>
+    <sltoolkit:TransitionService.NavigationOutTransition>
+        <sltoolkit:NavigationOutTransition>
+            <sltoolkit:NavigationOutTransition.Backward>
+                <sltoolkit:TurnstileTransition Mode="BackwardOut"/>
+            </sltoolkit:NavigationOutTransition.Backward>
+            <sltoolkit:NavigationOutTransition.Forward>
+                <sltoolkit:TurnstileTransition Mode="ForwardOut"/>
+            </sltoolkit:NavigationOutTransition.Forward>
+        </sltoolkit:NavigationOutTransition>
+    </sltoolkit:TransitionService.NavigationOutTransition>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent" Margin="12,0,12,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Margin="0,12,0,0"
+                   Text="{Binding Title}"
+                   Style="{StaticResource ATFrancoTextTitle2Style}"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="{Binding Description}">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock" BasedOn="{StaticResource ATFrancoTextExtraSmallStyle}">
+                        <Setter Property="Margin" Value="0,0,0,12"/>
+                        <Setter Property="TextWrapping" Value="Wrap"/>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+
+            <ListBox Grid.Row="1" ItemsSource="{Binding Images}">
+                <ListBox.Style>
+                    <Style TargetType="ListBox">
+                        <Setter Property="Margin" Value="0,0,0,0"/>
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="Foreground" Value="{StaticResource PhoneForegroundBrush}"/>
+                        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+                        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                        <Setter Property="Padding" Value="0"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListBox">
+                                    <ScrollViewer BorderBrush="{TemplateBinding BorderBrush}"
+                                                  BorderThickness="{TemplateBinding BorderThickness}"
+                                                  Background="{TemplateBinding Background}"
+                                                  Foreground="{TemplateBinding Foreground}"
+                                                  Padding="{TemplateBinding Padding}"
+                                                  ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                                                  ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                        <ItemsPresenter Grid.Row="1"/>
+                                    </ScrollViewer>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="ItemsPanel">
+                            <Setter.Value>
+                                <ItemsPanelTemplate>
+                                    <VirtualizingStackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="ItemTemplate">
+                            <Setter.Value>
+                                <DataTemplate>
+                                    <Image Source="{Binding}" CacheMode="BitmapCache" Tap="Image_Tap"/>
+                                </DataTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.Style>
+            </ListBox>
+        </Grid>
+    </Grid>
+</v:ViewBase>

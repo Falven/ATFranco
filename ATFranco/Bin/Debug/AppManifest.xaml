@@ -1,0 +1,10 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="ATFranco" EntryPointType="ATFranco.App" RuntimeVersion="6.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="ATFranco" Source="ATFranco.dll" />
+    <AssemblyPart x:Name="DapperApps.Phone.Controls.Toolkit" Source="DapperApps.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="WriteableBitmapExWinPhone" Source="WriteableBitmapExWinPhone.dll" />
+    <AssemblyPart x:Name="WriteableBitmapExWinPhoneXnaDependant" Source="WriteableBitmapExWinPhoneXnaDependant.dll" />
+  </Deployment.Parts>
+</Deployment>

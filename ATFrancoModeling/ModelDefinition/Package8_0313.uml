@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="891ef27a-e7be-4899-8d9e-79653ee4e783"
+  name="Controls"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="eb5f2859-6483-46a3-a42a-369bcea025dc"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDapperApps.Phone.Controls"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="816b154e-ad32-4d75-ab09-6fc1a984c7ee"
+        name="PTZImage"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0d6eb19f-a918-4604-92f4-2f63ccccbb31"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FFrancisco%2FSkyDrive%2FProjects%2FWindows Phone%2FLibraries%2FDapperToolkitRepo%2FDapperToolkit%2FDapperApps.Phone.Controls.Toolkit%2FBin%2FDebug%2FDapperApps.Phone.Controls.Toolkit.dll&quot; Namespace%3DDapperApps.Phone.Controls Type%3DPTZImage"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0d7a97eb-aeb5-4bf4-9008-315895d90690"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="002e511e-51f2-4cb6-a942-9a0bafd8af9d">
+                <propertyInstance
+                  Id="1cd367bc-2fa6-4bb7-855b-34e67e8647b0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96692bd5-60f6-4dc3-a3a6-d2f704e98e02">
+                <propertyInstance
+                  Id="30792487-aaf2-4680-ab05-fa9f74f19ca6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="63a34919-c03d-4e48-adfe-f09013aa1244">
+                <propertyInstance
+                  Id="7c8c6b19-8784-4679-8ca1-17eb94b1a5d2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36a756b8-4b4a-4d1b-80d2-f2e884360091">
+                <propertyInstance
+                  Id="bd15b3a5-171e-4630-8eb5-d62d5ba2969b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd9d0f7b-9c72-42e8-a229-067853867660">
+                <propertyInstance
+                  Id="144bf47e-7295-4242-a3a5-84d3fcc8e116"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

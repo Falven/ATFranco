@@ -1,0 +1,102 @@
+﻿<!--Copyright (c) Dapper Apps.  All rights reserved.
+    Use of this source code is subject to the terms of the Dapper Apps license 
+    agreement under which you licensed this sample source code and is provided AS-IS.
+    If you did not accept the terms of the license agreement, you are not authorized 
+    to use this sample source code.  For the terms of the license, please see the 
+    license agreement between you and Dapper Apps.
+    
+    To see the article about this app, visit http://www.dapper-apps.com/DapperToolkit-->
+
+<Application
+    x:Class="ATFranco.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:navigation="clr-namespace:System.Windows.Navigation;assembly=Microsoft.Phone"
+    xmlns:dappertoolkit="clr-namespace:DapperApps.Phone.Controls;assembly=DapperApps.Phone.Controls.Toolkit"
+    xmlns:sltoolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <local:LocalizedStrings xmlns:local="clr-namespace:ATFranco" x:Key="LocalizedStrings"/>
+
+        <navigation:UriMapper x:Key="UriMapper">
+            <navigation:UriMapping Uri="/FeaturedProjects" MappedUri="/Views/FeaturedProjectsPage.xaml"/>
+            <navigation:UriMapping Uri="/Main/{index}" MappedUri="/Views/MainPage.xaml?index={index}"/>
+            <navigation:UriMapping Uri="/Image/{name}" MappedUri="/Views/ImagePage.xaml?name={name}"/>
+            <navigation:UriMapping Uri="/Project/{index}" MappedUri="/Views/ProjectPage.xaml?index={index}"/>
+        </navigation:UriMapper>
+
+        <FontFamily x:Key="ATFrancoFontFamilySemiLight">/Assets/Fonts/BonvenoCF-Light.ttf#BonvenoCF</FontFamily>
+        <FontFamily x:Key="ATFrancoFontFamilyLight">/Assets/Fonts/HelveticaNeue-Light.ttf#Helvetica Neue</FontFamily>
+        <FontFamily x:Key="DapperFontFamilyRegular">/Assets/Fonts/Lato-Reg.ttf#Lato</FontFamily>
+        <SolidColorBrush x:Key="ATFrancoLogoBrush" Color="#395B74"/>
+        <SolidColorBrush x:Key="ATFrancoAccentBrush" Color="#7d87ad"/>
+        <SolidColorBrush x:Key="ATFrancoSubtleBrush" Color="Gray"/>
+        <SolidColorBrush x:Key="ATFrancoHyperLinkBrush" Color="#2daebf"/>
+
+        <Style x:Key="ATFrancoTextBlockBase" TargetType="TextBlock" BasedOn="{StaticResource PhoneTextBlockBase}">
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Margin" Value="0,0,0,0"/>
+        </Style>
+
+        <Style x:Key="ATFrancoTextExtraSmallStyle" TargetType="TextBlock" BasedOn="{StaticResource ATFrancoTextBlockBase}">
+            <Setter Property="FontFamily" Value="{StaticResource ATFrancoFontFamilyLight}"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+
+        <Style x:Key="ATFrancoTextSmallStyle" TargetType="TextBlock" BasedOn="{StaticResource ATFrancoTextBlockBase}">
+            <Setter Property="FontFamily" Value="{StaticResource ATFrancoFontFamilyLight}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeSmall}"/>
+        </Style>
+
+        <Style x:Key="ATFrancoTextNormalStyle" TargetType="TextBlock" BasedOn="{StaticResource ATFrancoTextBlockBase}">
+            <Setter Property="FontFamily" Value="{StaticResource ATFrancoFontFamilyLight}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeNormal}"/>
+        </Style>
+
+        <Style x:Key="ATFrancoTextTitle1Style" TargetType="TextBlock" BasedOn="{StaticResource ATFrancoTextBlockBase}">
+            <Setter Property="FontFamily" Value="{StaticResource ATFrancoFontFamilySemiLight}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeExtraExtraLarge}"/>
+        </Style>
+
+        <Style x:Key="ATFrancoTextTitle2Style" TargetType="TextBlock" BasedOn="{StaticResource ATFrancoTextBlockBase}">
+            <Setter Property="FontFamily" Value="{StaticResource ATFrancoFontFamilySemiLight}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeLarge}"/>
+        </Style>
+
+        <Style x:Key="ATFrancoTextTitle3Style" TargetType="TextBlock" BasedOn="{StaticResource ATFrancoTextBlockBase}">
+            <Setter Property="FontFamily" Value="{StaticResource ATFrancoFontFamilyLight}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMedium}"/>
+            <Setter Property="Foreground" Value="{StaticResource ATFrancoAccentBrush}"/>
+        </Style>
+
+        <Style x:Key="ATFrancoTextTitle4Style" TargetType="TextBlock" BasedOn="{StaticResource ATFrancoTextBlockBase}">
+            <Setter Property="FontFamily" Value="{StaticResource ATFrancoFontFamilyLight}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeNormal}"/>
+            <Setter Property="Foreground" Value="{StaticResource ATFrancoAccentBrush}"/>
+        </Style>
+
+        <Style x:Key="ATFrancoHyperLinkTextStyle" TargetType="TextBlock" BasedOn="{StaticResource ATFrancoTextSmallStyle}">
+            <Setter Property="Foreground" Value="{StaticResource ATFrancoHyperLinkBrush}"/>
+            <Setter Property="FontStyle" Value="Italic"/>
+        </Style>
+
+        <Style x:Key="HyperlinkPresenterStyle" TargetType="HyperlinkButton">
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="HyperlinkButton">
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService Launching="Application_Launching" Closing="Application_Closing" Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+</Application>

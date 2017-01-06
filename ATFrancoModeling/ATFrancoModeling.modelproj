@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2b11bf5b-9240-44b1-82cb-fe95a181fe29}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>ATFrancoModeling</Name>
+    <RootNamespace>ATFrancoModeling</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="AppLoggerDependenciesUMLDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AppLoggerDependenciesUMLDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>AppLoggerDependenciesUMLDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="AppSettingsDependenciesUMLDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AppSettingsDependenciesUMLDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>AppSettingsDependenciesUMLDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="AppStorageDependenciesUMLDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AppStorageDependenciesUMLDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>AppStorageDependenciesUMLDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="AppTasksUMLDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AppTasksUMLDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>AppTasksUMLDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="AppTilesDependenciesUMLDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AppTilesDependenciesUMLDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>AppTilesDependenciesUMLDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package10_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package10_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package11_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package11_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package12_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package13_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_0321.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package7_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package7_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package8_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package8_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package9_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package9_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0313.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0315.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0321.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1632.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelsUMLDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelsUMLDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ModelsUMLDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="SingletonsUMLDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SingletonsUMLDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SingletonsUMLDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ViewModelsUMLDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ViewModelsUMLDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ViewModelsUMLDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ViewsUMLDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ViewsUMLDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ViewsUMLDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\ATFrancoModeling.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>

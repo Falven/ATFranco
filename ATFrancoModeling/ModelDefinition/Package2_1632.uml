@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9da7a4d3-614d-4da0-a3a7-b7043256191b"
+  name="System"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="546cb47f-350e-45e4-9aeb-f15803d98bf9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a9ae3120-91cf-4b3f-a04a-8396a1b2c6dd"
+        name="Uri"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="69ad98ae-6c18-4344-baa1-d7a538d493f4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.dll&quot; Namespace%3DSystem Type%3DUri"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5b3c3b5a-5528-4cc3-8620-6035fdf2f40c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7ae1442-41a4-4f54-8415-0c8e3092e7c8">
+                <propertyInstance
+                  Id="47f3eab9-d7f4-4db7-81f8-0e2d2383ba4f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7ccdf4e0-3ff6-4713-8270-890e1e3cea05">
+                <propertyInstance
+                  Id="9c9ad44e-4f20-4545-9f6d-c641d628e3a6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e955fe84-d5fb-4227-9197-f96ce44396ab">
+                <propertyInstance
+                  Id="3e7267db-32cc-40fc-98df-abe0517e4d9a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2fdb8ceb-c972-4a67-ad90-02b99e1866e3">
+                <propertyInstance
+                  Id="d1ae3b97-8348-4304-97b8-60a3c2f342c5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="381da02d-8dd1-414d-88f0-a1a6cf171f31">
+                <propertyInstance
+                  Id="57298f80-18a1-4fac-a460-6b0a71d39d20"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="537e029f-7c8d-4350-8eb2-6197263b4537"
+        name="Nullable&lt;Int32‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="93eb7d7e-6e24-4c9d-93a6-a377d6d1b3c7"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11a69aab-605a-4c4d-8884-0ef840be7bf2">
+                <propertyInstance
+                  Id="772a98f5-aa30-4abd-b938-b9e2567a5003"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dee1f0af-6289-4155-811e-6f2a6633187f">
+                <propertyInstance
+                  Id="b4595d04-01d5-4afc-a959-2e7ee3ba96dc"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08bc45c3-c39b-4cf9-92ed-1b172b82a215">
+                <propertyInstance
+                  Id="41804169-6fa3-401b-8819-d4c4706a91bf"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="385935e0-6097-4055-979a-4aab01495e81">
+                <propertyInstance
+                  Id="82b418fa-2cee-44cf-a4a7-7eefb038b5b7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="2760c24d-f2cb-48b7-90cc-03d055c5eea4">
+            <redefinableTemplateSignatureMoniker
+              Id="f300e215-d56a-4cc3-9256-7269c703d558"
+              LastKnownLocation="Package2_1632.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="61f7457b-3929-4a73-b0b7-8475225a53d2">
+                  <actuals>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ATFrancoModeling.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="517c43b0-f7bb-470e-a231-e7347b58ae66"
+                      LastKnownLocation="Package2_1632.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="25a8b667-5484-488a-b2ed-241d81d923ec"
+        name="Nullable"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="55f6d2fd-2a49-496c-add5-e03b299c9559"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DNullable GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="76291788-e179-419c-b7af-523024fed572"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5df7257-bff3-408e-8e98-24a4e4a16cdd">
+                <propertyInstance
+                  Id="aff38e2f-c6db-4c54-89cf-fd07fba6c22e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="06d83acd-a555-40c3-abc7-cd06162558ee">
+                <propertyInstance
+                  Id="9ec372bd-af2d-4db3-908f-9ea466a519bd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13803ffa-d9c4-4170-826b-39c3569d4441">
+                <propertyInstance
+                  Id="a664cb71-3146-40b0-afc6-f19e630839d7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58f18fb9-987f-4c88-83d3-6f1ee9250af0">
+                <propertyInstance
+                  Id="ffea96f1-a0f1-4853-8721-9c98b2750f88"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="f300e215-d56a-4cc3-9256-7269c703d558"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="517c43b0-f7bb-470e-a231-e7347b58ae66">
+                <referencesInternal>
+                  <reference
+                    Id="4824d7cc-257e-425d-bb69-b58b44e532e4"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DNullable GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="bd01c62d-1092-4166-b20c-16040fd566f8"
+                    name="T"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c45bb464-bc91-4e48-9060-28722cd3c2f2"
+        LastKnownName="Device"
+        LastKnownLocation="Package6_1632.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="db82b5fe-6a74-4894-b64d-ef1e12057845"
+        name="Double"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c2a78577-ae0c-40d3-a174-28c633c9000d"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="808a677d-2308-42f3-b95e-43aa33191b58"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f06cc792-e4ab-4287-99b6-ce87cbc45239">
+                <propertyInstance
+                  Id="769a182f-1218-4805-9f9b-3870244fdd68"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b75d8e68-675d-4401-bf50-fde422d2766f">
+                <propertyInstance
+                  Id="3a6a3dc5-b9bf-4615-8761-b9a8758a4382"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e16f488-f205-463c-9ca7-967a41dd853c">
+                <propertyInstance
+                  Id="6b8bd738-3eb9-4d44-903f-4d9751bb14a3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8eb33524-f32f-4878-9dd7-0ca81eb8a2ea">
+                <propertyInstance
+                  Id="549f85d7-3f1e-4628-ab92-2dbf0a425bac"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a948a0dd-2b89-4928-b853-b320078302cc"
+        LastKnownName="Collections"
+        LastKnownLocation="Package8_1632.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d75d9af5-5811-4e70-a311-ce7c78784f80"
+        LastKnownName="Windows"
+        LastKnownLocation="Package10_1632.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2bc6f33d-2954-4d13-9369-95a5421ca6f8"
+        LastKnownName="ComponentModel"
+        LastKnownLocation="Package13_1632.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4efb871b-88d7-448e-a63c-2fb25c79c140"
+        name="Object"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="28c115bf-b4f7-4276-98dd-517d86a0d95c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f4fe413a-44d4-413b-919a-61f93cb537e9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8de53352-1f58-49cd-ba1c-03f3b335f70d">
+                <propertyInstance
+                  Id="acb0c6ff-34fc-48f6-bd7f-0cfe31d4f5ed"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a54d4fb8-d90a-4da7-9659-91d7420804fc">
+                <propertyInstance
+                  Id="f69f0792-62ab-4079-b1d6-5fe4b7d82b9b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bc2c1136-aedc-4970-b821-b035d2ebc82e">
+                <propertyInstance
+                  Id="54d7b6ec-298c-4b5c-812c-03cf8e5c83df"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ed7cbe96-84fa-4a8d-9553-5dc61ec8af3e">
+                <propertyInstance
+                  Id="bcd8ce9e-f6a9-4941-a17c-5546a1ab85f9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7395e0c-6ce1-457f-9ccc-465fc7000521">
+                <propertyInstance
+                  Id="45053fba-12e9-4440-9ee1-738cc05d67eb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="688bd8ec-0087-4ca0-88ac-0f4d998f6c1f"
+        name="EventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2db915a3-9a41-40d9-b76e-484ffed9f7f6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="40c67875-0167-40a5-90dd-1a0092410f80"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3bc70d1f-1e62-4d6c-9ab6-87c5640caf49">
+                <propertyInstance
+                  Id="5743b971-3460-4752-b937-0c2cbc4bb3e7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eba1b2d7-be67-4808-a79f-4b24dbc78aa1">
+                <propertyInstance
+                  Id="1cf35e91-de34-473d-8f35-e2716674b80b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b661ec07-4d3e-4818-b55b-e50dd58797d8">
+                <propertyInstance
+                  Id="5e9cc8d4-4fb4-4d25-9df5-e97b3660c5d1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="33c74323-a18e-4fb2-9100-7e80cff9a4b3">
+                <propertyInstance
+                  Id="4df937f7-fd1c-4a63-ae78-51814e77528f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c6f3ff9d-f2e4-4d0c-96ea-f0f5dd8298f4">
+                <propertyInstance
+                  Id="f8e84706-7d35-4166-bfea-fbc456a2cf0b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="57defe10-9cc8-496d-a031-74976ed43df3"
+        name="EventHandler&lt;EventArgs‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d8508186-b259-4166-8ac0-664573990458"
+            name="delegate"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70948503-5111-4827-98d5-b4e58c804be5">
+                <propertyInstance
+                  Id="c5f56436-c7ec-4fe9-915d-3aaf693affe0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="69e889ff-d08c-4810-9731-47107b8e845f">
+                <propertyInstance
+                  Id="ee24d5c0-d9a0-4cb4-b95f-a456e84d37dc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a9782b22-65b7-4f97-98e9-c92d59a3e753">
+                <propertyInstance
+                  Id="1724c70d-3416-473e-9957-d39c7f916762"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="3ab179ee-d529-4906-93c3-0b55c989c7b5">
+            <redefinableTemplateSignatureMoniker
+              Id="ccef148b-de2f-46e7-8bc3-94504f7edc33"
+              LastKnownLocation="Package2_1632.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="2e36a4ef-7b2f-46f8-ba60-b14b9c1ab15a">
+                  <actuals>
+                    <classMoniker
+                      Id="688bd8ec-0087-4ca0-88ac-0f4d998f6c1f"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package2_1632.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="f64627ce-393a-4ba1-a146-21c8b5375a33"
+                      LastKnownLocation="Package2_1632.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1df955d5-c89d-4776-8031-5e1acf93339c"
+        name="EventHandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="62e547ed-2ab0-43a6-8bc1-bf96cccf46a8"
+            handle="viewcode://./CodeSchema_Delegate?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DEventHandler GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c6a98f14-edd2-472d-88f7-6c16741240c1"
+            name="delegate"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb4517cb-6018-4094-b2cd-bda8559e254f">
+                <propertyInstance
+                  Id="ee0ac139-fb72-4fc0-a369-467665ffa4e3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d70a25a-190b-4eb5-a5c4-c3a07e175b43">
+                <propertyInstance
+                  Id="be98c2e6-0b97-477f-a0ba-5dbc0493fc26"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c637f241-7b41-4ad3-aa86-2d2f2ff916b2">
+                <propertyInstance
+                  Id="6daf5840-c792-4cb7-97a1-b6eaa5da8b74"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="ccef148b-de2f-46e7-8bc3-94504f7edc33"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="f64627ce-393a-4ba1-a146-21c8b5375a33">
+                <referencesInternal>
+                  <reference
+                    Id="15bd890e-4438-431d-a240-55636ca6eee4"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DEventHandler GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="3c6af16b-d7f6-4a1a-a017-203b7c5f1aec"
+                    name="TEventArgs"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0a427b05-5189-4f22-aa60-1d864e533575"
+        name="Exception"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9c726418-49fa-48f3-a9f9-8ec280148a07"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="34eb9c2e-06d5-4239-9fd1-86e2cbecde6b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d796b842-0248-4071-a8f5-2a87d7b31835">
+                <propertyInstance
+                  Id="cc90d3cf-17ef-4ab9-aca3-c4854aba0728"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e1272ac-0364-4c90-a602-5eb6d6da07c0">
+                <propertyInstance
+                  Id="b37d4bb3-3e89-432d-8a87-02f91f1daf93"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c4b4778c-5fe2-4744-aa00-f644024bd739">
+                <propertyInstance
+                  Id="d4eb0986-5f9c-417c-990a-14ded49eb834"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="142b67d4-3c4c-4498-8824-7d77b70fb911">
+                <propertyInstance
+                  Id="a08164a1-b636-42cf-95d3-b383dc9f2fa6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2461dbfc-6e09-4896-a05d-6c309631b006">
+                <propertyInstance
+                  Id="9a22ccf6-dc5f-4d55-bebf-698fcd0b1f20"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4cfc2a38-4be8-414a-977a-9652841d802e"
+        name="DateTime"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4be36153-119b-46fd-aa6f-43e8c3e0e7c0"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="57778256-ef8f-4c0f-9d2b-fea0f8043b53"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dbeb6c1c-56ab-4c57-bc04-922ea80a040b">
+                <propertyInstance
+                  Id="edb61eb5-6e78-4377-b6f9-93ff22b86f06"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94b693a8-5b4f-4307-8709-b4000e2f7079">
+                <propertyInstance
+                  Id="12bbb576-f771-4ac8-818f-1c308e31fa59"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86effc08-6e5d-4a84-8a93-44b41e32658f">
+                <propertyInstance
+                  Id="84e2aaa5-43bb-4352-a46e-cb8f79f37aa0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0aa1a0c7-c5ea-4ef5-9ceb-6c0e77950eaf">
+                <propertyInstance
+                  Id="2f7eb802-aa8b-46ea-87aa-1fb37a21e921"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="13102bc3-fcf4-4df3-af4d-af37f1fd6dba"
+        LastKnownName="IO"
+        LastKnownLocation="Package_0321.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

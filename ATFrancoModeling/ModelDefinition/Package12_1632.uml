@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6e5eff88-43b0-49bd-9079-bc08484b6d78"
+  name="Imaging"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5bd95c96-95de-4197-9949-d2ce7c15afe1"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Windows.Media.Imaging"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="463b2ed3-9c4c-42fa-9b37-47e180426385"
+        name="BitmapImage"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cef5b0d7-0e20-4099-a3f3-5c45cbbc1982"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Media.Imaging Type%3DBitmapImage"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8850140f-b9e9-4818-a53a-7ed7bfaa5207"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9947ebd-2f7f-499a-8713-4d1a0115372b">
+                <propertyInstance
+                  Id="3e77053c-d03a-489b-9559-a88521e788f8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c9d1a479-e71a-4e47-a34d-cf2ac1641561">
+                <propertyInstance
+                  Id="1059fa1c-e898-4e8d-9b40-a3266d344c08"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c61dc49b-cb2c-46f7-a83a-fd30113de8c7">
+                <propertyInstance
+                  Id="04dc8999-5462-4995-b27c-fe4a07ca5c40"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22c94b89-34c4-49e2-8edd-43d87dac0a98">
+                <propertyInstance
+                  Id="4f1c1ba4-24da-4230-9e4b-0a0c573a616f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c8ea389-6cc8-446d-b4c0-2bd9e32f2c4d">
+                <propertyInstance
+                  Id="18fbb4f9-0b01-43a5-8884-fa774a1da7ce"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="4b773167-346f-48ef-8e77-beb0dca9e57f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="0fb9a740-95d5-40cd-b5f7-ed5f5b84264e"
+              LastKnownName="BitmapSource"
+              LastKnownLocation="Package12_1632.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0fb9a740-95d5-40cd-b5f7-ed5f5b84264e"
+        name="BitmapSource"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ffec69fd-7926-4233-8dbb-835450b6ade8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Media.Imaging Type%3DBitmapSource"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="70320b12-3c25-41e0-b73c-8ecfaf75267a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6fd60a3e-d085-410a-b840-f861e40b81c9">
+                <propertyInstance
+                  Id="404dd463-7439-4dd7-ad3a-3186291182f0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="73f4fcd7-9244-43fc-b579-42c34dcaf0c9">
+                <propertyInstance
+                  Id="622454b8-9c1a-4415-838f-c6454a266511"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62a7ca7c-23e8-4776-9f91-e46ad35cccc4">
+                <propertyInstance
+                  Id="83543d9b-11cb-46be-bf90-40f01deb45e8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d79beb42-a548-4c6f-ac61-30b5a97c4e41">
+                <propertyInstance
+                  Id="5c2276a6-bda7-4690-9a11-1b63a242d7ae"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fba456b7-9d5c-4eb5-a6fc-a758f9bc1d92">
+                <propertyInstance
+                  Id="8445c781-ba95-4a77-bacf-fa2d1ea3e346"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a4d9251b-1fe8-4351-855f-1a946e830e88"
+        name="WriteableBitmap"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1e00b253-c948-4610-9251-41cf529423d1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Media.Imaging Type%3DWriteableBitmap"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="406587f5-d870-40fb-b9dc-3728c403d39f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe3955b6-6724-42ba-a35c-729027e89067">
+                <propertyInstance
+                  Id="31fe6760-c0bc-4a32-b93d-b1bff049defe"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8a493356-dce2-4e7f-99be-58efef0e7be3">
+                <propertyInstance
+                  Id="b3b8468c-3955-4726-95ee-91e511728ea2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce9fcac0-4515-44ac-9fb7-ac11bab74795">
+                <propertyInstance
+                  Id="b6f22a84-7f3e-4a12-ac40-6be81c9379f9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e4367e1-0aa0-45ce-ab60-c12321455a61">
+                <propertyInstance
+                  Id="ef0a0c4f-f87d-4155-a2a8-5dc187753dd7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="162446bb-ebcd-4f09-877d-73b58e982473">
+                <propertyInstance
+                  Id="6eb6a08a-7986-43a2-8510-0c6c9ff6b3b5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="ec086d94-1b64-47a5-87ac-8de636e66413"
+            isSubstitutable="false">
+            <classMoniker
+              Id="0fb9a740-95d5-40cd-b5f7-ed5f5b84264e"
+              LastKnownName="BitmapSource"
+              LastKnownLocation="Package12_1632.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="311e677e-35b0-4234-b43f-54cbf9375ee7"
+        name="BitmapCreateOptions"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="09f037d2-c6f5-40ba-83ba-d0e5f1fa43eb"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Media.Imaging Type%3DBitmapCreateOptions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="97a229cf-111f-4124-ac67-09b94a8f3b3e"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca1af2f1-cccd-4374-8d4b-e2433513e08f">
+                <propertyInstance
+                  Id="7f3c3433-96f0-4e9e-92bf-39524321dfde"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="50eb9032-ce15-4c2e-b6ad-77f5c0dcdc2e">
+                <propertyInstance
+                  Id="bd8fd48d-fc04-4db1-99ad-3b086ad8a253"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd01a987-1487-4519-8e27-8e4db81c9635">
+                <propertyInstance
+                  Id="69e89a09-2066-42e0-bf60-477b06389701"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

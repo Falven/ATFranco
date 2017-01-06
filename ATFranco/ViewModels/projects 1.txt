@@ -1,0 +1,273 @@
+﻿string rProject3Title = "ISLAMORADA";
+string rProject3Location = "Islamorada, FL";
+string rProject3Description = "Fronting the beautiful Florida Bay, this private enclave was designed to be reminiscent of \"conch style\" architecture, traditional to the Florida Keys. At over 15,000 square feet, the complex includes a main house, two guesthouses, three ancillary support buildings, a garage and a boathouse. In addition to the main residence design, ATFA has been retained to complete various projects throughout the years for the client. Such projects include a custom hot tub with sloped entry and coping and a pool cabana complete with outdoor executive chef kitchen and seating area.";
+string rProject3Type = "Private Residence";
+var rProject3TooltipLinks = new Collection<Uri>();
+rProject3TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/36/tooltips/dsc00493.jpg", UriKind.Absolute));
+rProject3TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/36/tooltips/islamorada1.jpg", UriKind.Absolute));
+rProject3TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/36/tooltips/islamorada2.jpg", UriKind.Absolute));
+var rProject3ImageLinks = new Collection<Uri>();
+rProject3ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/36/images/dsc00493.jpg", UriKind.Absolute));
+rProject3ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/36/images/islamorada1.jpg", UriKind.Absolute));
+rProject3ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/36/images/islamorada2.jpg", UriKind.Absolute));
+Project rProject3 = new Project(rProject3Title, rProject3Location, rProject3Description, rProject3Type, rProject3TooltipLinks, rProject3ImageLinks);
+#endregion
+
+#region RProject 4
+string rProject4Title = "BAHAMAS";
+string rProject4location = "Abaco Islands, Bahamas";
+string rProject4Description = "To respond to the waterfront and beachside open lot, the main house, detached bunkroom and guest suite were developed to take advantage of the sloping terrain and panoramic ocean views. Incorporation of hardie material on the exterior, cistern\'s located beneath the building, and impact rated doors and windows responded to the owner\'s request for minimum maintenance and durability during storm surge. The original home was constructed in 2003, and in 2006, ATFA was retained again to create a detached guesthouse which was built the following year. The guesthouse was designed to reflect the same style and incorporate similar materials and building methods as completed with the main residence. Located at the property\'s high point, full 360 degree panoramic views allow guests a truly unique view. Expansive porches offer a tranquil area to take in the beautiful views of Abaco Island.";
+string rProject4Type = "Private Residence";
+var rProject4TooltipLinks = new Collection<Uri>();
+rProject4TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/37/tooltips/img_0973.jpg", UriKind.Absolute));
+rProject4TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/37/tooltips/img_0999.jpg", UriKind.Absolute));
+rProject4TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/37/tooltips/img_1007.jpg", UriKind.Absolute));
+var rProject4ImageLinks = new Collection<Uri>();
+rProject4ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/37/images/img_0973.jpg", UriKind.Absolute));
+rProject4ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/37/images/img_0999.jpg", UriKind.Absolute));
+rProject4ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/37/images/img_1007.jpg", UriKind.Absolute));
+Project rProject4 = new Project(rProject4Title, rProject4location, rProject4Description, rProject4Type, rProject4TooltipLinks, rProject4ImageLinks);
+#endregion
+
+#region RProject 5
+string rProject5Title = "STAR ISLAND";
+string rProject5Location = "Star Island, Miami Beach, FL";
+string rProject5Description = "In collaboration with master thatchers Ace Thatch & Bamboo, Inc., ATFA provided architectural design services for the ancillary pool structures for this very exclusive private residence located on Star Island in Miami Beach. These unique pool pavilions were constructed of exotic hardwood timbers and traditionally thatched Turkish water reed roofs that are reflective of the architectural style of Bali.";
+string rProject5Type = "Private Residence";
+var rProject5TooltipLinks = new Collection<Uri>();
+rProject5TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/tooltips/pic1.jpg", UriKind.Absolute));
+rProject5TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/tooltips/pic2.jpg", UriKind.Absolute));
+rProject5TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/tooltips/pic3.jpg", UriKind.Absolute));
+rProject5TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/tooltips/pic4.jpg", UriKind.Absolute));
+rProject5TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/tooltips/pic5.jpg", UriKind.Absolute));
+var rProject5ImageLinks = new Collection<Uri>();
+rProject5ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/images/pic1.jpg", UriKind.Absolute));
+rProject5ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/images/pic2.jpg", UriKind.Absolute));
+rProject5ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/images/pic3.jpg", UriKind.Absolute));
+rProject5ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/images/pic4.jpg", UriKind.Absolute));
+rProject5ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/53/images/pic5.jpg", UriKind.Absolute));
+Project rProject5 = new Project(rProject5Title, rProject5Location, rProject5Description, rProject5Type, rProject5TooltipLinks, rProject5ImageLinks);
+#endregion
+
+#region RProject 6
+string rProject6Title = "FORT LAUDERDALE";
+string rProject6Location = "Fort Lauderdale, FL";
+string rProject6Description = "In collaboration with master thatchers Ace Thatch & Bamboo, Inc., ATFA provided architectural design services for the ancillary pool structures for this very exclusive private residence located on Star Island in Miami Beach. These unique pool pavilions were constructed of exotic hardwood timbers and traditionally thatched Turkish water reed roofs that are reflective of the architectural style of Bali.";
+string rProject6Type = "Private Residence";
+var rProject6TooltipLinks = new Collection<Uri>();
+rProject6TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/tooltips/front_view.jpg", UriKind.Absolute));
+rProject6TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/tooltips/img_0036.jpg", UriKind.Absolute));
+rProject6TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/tooltips/img_0070.jpg", UriKind.Absolute));
+rProject6TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/tooltips/living_room.jpg", UriKind.Absolute));
+rProject6TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/tooltips/bath_tub.jpg", UriKind.Absolute));
+var rProject6ImageLinks = new Collection<Uri>();
+rProject6ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/images/front_view.jpg", UriKind.Absolute));
+rProject6ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/images/img_0036.jpg", UriKind.Absolute));
+rProject6ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/images/img_0070.jpg", UriKind.Absolute));
+rProject6ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/images/living_room.jpg", UriKind.Absolute));
+rProject6ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/48/images/bath_tub.jpg", UriKind.Absolute));
+Project rProject6 = new Project(rProject6Title, rProject6Location, rProject6Description, rProject6Type, rProject6TooltipLinks, rProject6ImageLinks);
+#endregion
+
+#region RProject 7
+string rProject7Title = "PORTSMOUTH";
+string rProject7Location = "Portsmouth, NH";
+string rProject7Description = "In collaboration with master thatchers Ace Thatch & Bamboo, Inc., ATFA provided architectural design services for the ancillary pool structures for this very exclusive private residence located on Star Island in Miami Beach. These unique pool pavilions were constructed of exotic hardwood timbers and traditionally thatched Turkish water reed roofs that are reflective of the architectural style of Bali.";
+string rProject7Type = "Private Residence";
+var rProject7TooltipLinks = new Collection<Uri>();
+rProject7TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/tooltips/ah_streetscape_i.jpg", UriKind.Absolute));
+rProject7TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/tooltips/img_0898.jpg", UriKind.Absolute));
+rProject7TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/tooltips/img_1924.jpg", UriKind.Absolute));
+rProject7TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/tooltips/img_1981.jpg", UriKind.Absolute));
+rProject7TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/tooltips/img_1993.jpg", UriKind.Absolute));
+rProject7TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/tooltips/img_2043.jpg", UriKind.Absolute));
+rProject7TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/tooltips/img_2052.jpg", UriKind.Absolute));
+rProject7TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/tooltips/img_2117.jpg", UriKind.Absolute));
+rProject7TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/tooltips/pcc_rear_patio.jpg", UriKind.Absolute));
+var rProject7ImageLinks = new Collection<Uri>();
+rProject7ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/images/ah_streetscape_i.jpg", UriKind.Absolute));
+rProject7ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/images/img_0898.jpg", UriKind.Absolute));
+rProject7ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/images/img_1924.jpg", UriKind.Absolute));
+rProject7ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/images/img_1981.jpg", UriKind.Absolute));
+rProject7ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/images/img_1993.jpg", UriKind.Absolute));
+rProject7ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/images/img_2043.jpg", UriKind.Absolute));
+rProject7ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/images/img_2052.jpg", UriKind.Absolute));
+rProject7ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/images/img_2117.jpg", UriKind.Absolute));
+rProject7ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/42/images/pcc_rear_patio.jpg", UriKind.Absolute));
+Project rProject7 = new Project(rProject7Title, rProject7Location, rProject7Description, rProject7Type, rProject7TooltipLinks, rProject7ImageLinks);
+#endregion
+#endregion
+
+ResidentialProjects = new ObservableCollection<Project>();
+ResidentialProjects.Add(rProject1);
+ResidentialProjects.Add(rProject2);
+ResidentialProjects.Add(rProject3);
+ResidentialProjects.Add(rProject4);
+ResidentialProjects.Add(rProject5);
+ResidentialProjects.Add(rProject6);
+ResidentialProjects.Add(rProject7);
+
+#region Institutional Projects
+#region iProject 1
+string iProject1Title = "CARDINAL GIBBONS";
+string iProject1Location = "Fort Lauderdale, FL";
+string iProject1Description = "The intent of the multi-goal project was to create a lobby for the existing gym to accommodate a lounge area with trophy display cases, concession stand and restrooms, and a practice court on the second floor with a sports classroom. In addition, the building, located in a prominent part of the school’s center area, established the new ‘architectural look’ for the school, in order to create new campus atmosphere, while taking into account the students’ circulation patterns. To further accomplish this, an elevated walkway, new student courtyard were also added. Night illumination for both safety and improving nighttime school functions was also incorporated into the design.";
+string iProject1Type = "Institutional";
+var iProject1TooltipLinks = new Collection<Uri>();
+iProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/40/tooltips/day_view_2.jpg", UriKind.Absolute));
+iProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/40/tooltips/hall2.jpg", UriKind.Absolute));
+iProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/40/tooltips/night_view_2.jpg", UriKind.Absolute));
+var iProject1ImageLinks = new Collection<Uri>();
+iProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/40/images/day_view_2.jpg", UriKind.Absolute));
+iProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/40/images/hall2.jpg", UriKind.Absolute));
+iProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/40/images/night_view_2.jpg", UriKind.Absolute));
+Project iProject1 = new Project(iProject1Title, iProject1Location, iProject1Description, iProject1Type, iProject1TooltipLinks, iProject1ImageLinks);
+#endregion
+
+#region iProject 2
+string iProject2Title = "JOIS YOGA STUDIO";
+string iProject2Location = "Encinitas, CA";
+string iProject2Description = "With two other locations – one in Sydney, Australia and the other in Encinitas, California – this facility was designed to become the company\'s flagship studio and retail store. ATFA was retained to manage a complete design team of architects, engineers, interior designers and landscape arhictects, who was challenged with the task of preserving the original character of the existing building, improving its impact on the community, and developing a strong brand image for Jois Yoga.\n\nThe design consists of two areas: the \"shala\" or studio, used for yoga practice, and a retail space used as a clothing and accessories boutique. The roof of the original building was raised to give the space high ceilings and another level of clerestory windows were added to double the amount of natural light and air. SOLATUBE skylights were added to allow sunlight to enter through the roof during the day, which reduces the need for electrical lighting and saves energy. Completed in April 2012, Jois Yoga\'s Greenwich location evokes simplicity, tranquility, and transformation – qualities that are all synonymous with the practice of yoga.";
+string iProject2Type = "Institutional";
+var iProject2TooltipLinks = new Collection<Uri>();
+iProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/tooltips/jois_0019.jpg", UriKind.Absolute));
+iProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/tooltips/jois_0024.jpg", UriKind.Absolute));
+iProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/tooltips/jois_0046.jpg", UriKind.Absolute));
+iProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/tooltips/jois_0059_1.jpg", UriKind.Absolute));
+iProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/tooltips/jois_0071.jpg", UriKind.Absolute));
+iProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/tooltips/jois07.jpg", UriKind.Absolute));
+iProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/tooltips/jois24.jpg", UriKind.Absolute));
+iProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/tooltips/jois37.jpg", UriKind.Absolute));
+iProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/tooltips/jois44.jpg", UriKind.Absolute));
+var iProject2ImageLinks = new Collection<Uri>();
+iProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/images/jois_0019.jpg", UriKind.Absolute));
+iProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/images/jois_0024.jpg", UriKind.Absolute));
+iProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/images/jois_0046.jpg", UriKind.Absolute));
+iProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/images/jois_0059_1.jpg", UriKind.Absolute));
+iProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/images/jois_0071.jpg", UriKind.Absolute));
+iProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/images/jois07.jpg", UriKind.Absolute));
+iProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/images/jois24.jpg", UriKind.Absolute));
+iProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/images/jois37.jpg", UriKind.Absolute));
+iProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/31/images/jois44.jpg", UriKind.Absolute));
+Project iProject2 = new Project(iProject2Title, iProject2Location, iProject2Description, iProject2Type, iProject2TooltipLinks, iProject2ImageLinks);
+#endregion
+#endregion
+
+InstitutionalProjects = new ObservableCollection<Project>();
+InstitutionalProjects.Add(iProject1);
+InstitutionalProjects.Add(iProject2);
+
+#region Leisure + Resort Projects
+#region lrProject 1
+string lrProject1Title = "ADIOS GOLF CLUB";
+string lrProject1Location = "Coconut Creek, FL";
+string lrProject1Description = "Set in a magnificent Arnold Palmer designed golf course, this 27,000 square foot Clubhouse was intended to represent old Florida\'s \"rustic ranch house\" architecture. An imposing wood frame structure was used to provide a warm and elegant character throughout. Additional renovations included a new horseshoe-shaped bar, expanded dining space, a new exercise room, a complete overhaul of the restrooms and showers, as well as a kitchen expansion. The clubhouse was also remodeled to comply with the Americans with Disabilities Act regulations.";
+string lrProject1Type = "Leisure + Resort";
+var lrProject1TooltipLinks = new Collection<Uri>();
+lrProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/30/tooltips/adios1.jpg", UriKind.Absolute));
+lrProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/30/tooltips/adios2.jpg", UriKind.Absolute));
+lrProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/30/tooltips/adios3.jpg", UriKind.Absolute));
+lrProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/30/tooltips/adiosbar.jpg", UriKind.Absolute));
+var lrProject1ImageLinks = new Collection<Uri>();
+lrProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/30/images/adios1.jpg", UriKind.Absolute));
+lrProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/30/images/adios2.jpg", UriKind.Absolute));
+lrProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/30/images/adios3.jpg", UriKind.Absolute));
+lrProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/30/images/adiosbar.jpg", UriKind.Absolute));
+Project lrProject1 = new Project(lrProject1Title, lrProject1Location, lrProject1Description, lrProject1Type, lrProject1TooltipLinks, lrProject1ImageLinks);
+#endregion
+
+#region lrProject 2
+string lrProject2Title = "BROKEN SOUND";
+string lrProject2Location = "Boca Raton, FL";
+string lrProject2Description = "";
+string lrProject2Type = "Leisure + Resort";
+var lrProject2TooltipLinks = new Collection<Uri>();
+lrProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/44/tooltips/brokensound1.jpg", UriKind.Absolute));
+lrProject2TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/44/tooltips/brokensound2.jpg", UriKind.Absolute));
+var lrProject2ImageLinks = new Collection<Uri>();
+lrProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/44/images/brokensound1.jpg", UriKind.Absolute));
+lrProject2ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/44/images/brokensound2.jpg", UriKind.Absolute));
+Project lrProject2 = new Project(lrProject2Title, lrProject2Location, lrProject2Description, lrProject2Type, lrProject2TooltipLinks, lrProject2ImageLinks);
+#endregion
+
+#region lrProject 3
+string lrProject3Title = "HARBOUR VILLAGE";
+string lrProject3Location = "Bonaire, Netherland Antilles";
+string lrProject3Description = "The architecture of this seaside resort was designed to embrace the Dutch style of the Netherland Antilles, as well as provide an image for the marketing efforts of Harbour Village. ATFA\'s designs include the Health Spa, Yacht Club, Admiral\'s Tavern Lighthouse Restaurant, The Diver\'s Inn, Dive Shop, Sales Center, several plazas and other related facilities. Harbour Village is included among the best twelve seaside spa retreats around the world, according to Harper\'s Bazaar.";
+string lrProject3Type = "Leisure + Resort";
+var lrProject3TooltipLinks = new Collection<Uri>();
+lrProject3TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/41/tooltips/harbour1.jpg", UriKind.Absolute));
+lrProject3TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/41/tooltips/harbour2.jpg", UriKind.Absolute));
+lrProject3TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/41/tooltips/harbour3.jpg", UriKind.Absolute));
+var lrProject3ImageLinks = new Collection<Uri>();
+lrProject3ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/41/images/harbour1.jpg", UriKind.Absolute));
+lrProject3ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/41/images/harbour2.jpg", UriKind.Absolute));
+lrProject3ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/41/images/harbour3.jpg", UriKind.Absolute));
+Project lrProject3 = new Project(lrProject3Title, lrProject3Location, lrProject3Description, lrProject3Type, lrProject3TooltipLinks, lrProject3ImageLinks);
+#endregion
+
+#region lrProject 4
+string lrProject4Title = "ISLEWORTH CLUBHOUSE";
+string lrProject4Location = "Windmere, FL";
+string lrProject4Description = "";
+string lrProject4Type = "Leisure + Resort";
+var lrProject4TooltipLinks = new Collection<Uri>();
+lrProject4TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/50/tooltips/isleworth1.jpg", UriKind.Absolute));
+lrProject4TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/50/tooltips/isleworth2.jpg", UriKind.Absolute));
+lrProject4TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/50/tooltips/isleworth3.jpg", UriKind.Absolute));
+var lrProject4ImageLinks = new Collection<Uri>();
+lrProject4ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/50/images/isleworth1.jpg", UriKind.Absolute));
+lrProject4ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/50/images/isleworth2.jpg", UriKind.Absolute));
+lrProject4ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/50/images/isleworth3.jpg", UriKind.Absolute));
+Project lrProject4 = new Project(lrProject4Title, lrProject4Location, lrProject4Description, lrProject4Type, lrProject4TooltipLinks, lrProject4ImageLinks);
+#endregion
+#endregion
+
+LeisureResortProjects = new ObservableCollection<Project>();
+LeisureResortProjects.Add(lrProject1);
+LeisureResortProjects.Add(lrProject2);
+LeisureResortProjects.Add(lrProject3);
+LeisureResortProjects.Add(lrProject4);
+
+#region Specialty Projects
+#region sProject1
+string sProject1Title = "PAMUSHANA SAFARI CAMP";
+string sProject1Location = "Zimbabwe, Africa";
+string sProject1Description = "Created to serve the 5-star Safari Game Lodge tourist industry, Pamushana is arguably the most exclusive safari lodge in Zimbabwe. ATFA participated and coordinated a team of local and stateside designers and engineers to produce this exemplary lodge. The design consisted of an open reception and lounging area surrounding a reflective pool overseeing the panoramic views over the Malilangwe Lake. Nearby, the exterior bar and dining terraces, and the interior airconditioned dining room serve the guests that also oversee the magnificent views. A 5,000-bottle wine cellar serves as a central theme for the Dining Room. The lodge houses its guests in six individual private villas, separated by both the configuration of the site plan and the lush landscaping developed for the project. Each villa is designed as a private suite, with a large bedroom and bathroom. All the spaces have a small private pool, with independent and private views over the lake. Several amenities serve the guests, including a gun room, an archery range, a private gym and spa. The complex also supports all back of house needs for a game lodge.";
+string sProject1Type = "Specialty";
+var sProject1TooltipLinks = new Collection<Uri>();
+sProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/tooltips/img_1482.jpg", UriKind.Absolute));
+sProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/tooltips/img_1491.jpg", UriKind.Absolute));
+sProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/tooltips/img_1507.jpg", UriKind.Absolute));
+sProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/tooltips/img_1513.jpg", UriKind.Absolute));
+sProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/tooltips/img_1526.jpg", UriKind.Absolute));
+sProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/tooltips/img_1647.jpg", UriKind.Absolute));
+sProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/tooltips/img_1811.jpg", UriKind.Absolute));
+sProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/tooltips/img_2033.jpg", UriKind.Absolute));
+sProject1TooltipLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/tooltips/img_3995.jpg", UriKind.Absolute));
+var sProject1ImageLinks = new Collection<Uri>();
+sProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/images/img_1482.jpg", UriKind.Absolute));
+sProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/images/img_1491.jpg", UriKind.Absolute));
+sProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/images/img_1507.jpg", UriKind.Absolute));
+sProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/images/img_1513.jpg", UriKind.Absolute));
+sProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/images/img_1526.jpg", UriKind.Absolute));
+sProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/images/img_1647.jpg", UriKind.Absolute));
+sProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/images/img_1811.jpg", UriKind.Absolute));
+sProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/images/img_2033.jpg", UriKind.Absolute));
+sProject1ImageLinks.Add(new Uri("http://www.atfranco.com/wp-content/uploads/wow-slider-plugin/39/images/img_3995.jpg", UriKind.Absolute));
+Project sProject1 = new Project(sProject1Title, sProject1Location, sProject1Description, sProject1Type, sProject1TooltipLinks, sProject1ImageLinks);
+#endregion
+#endregion
+
+SpecialtyProjects = new ObservableCollection<Project>();
+SpecialtyProjects.Add(sProject1);
+
+
+foreach (Project project in ResidentialProjects)
+    AllProjects.Add(project);
+foreach (Project project in InstitutionalProjects)
+    AllProjects.Add(project);
+foreach (Project project in LeisureResortProjects)
+    AllProjects.Add(project);
+foreach (Project project in SpecialtyProjects)
+    AllProjects.Add(project);

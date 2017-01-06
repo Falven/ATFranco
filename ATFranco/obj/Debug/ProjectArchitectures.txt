@@ -1,0 +1,2 @@
+C:\Users\falven\OneDrive\Projects\Windows Phone\Libraries\DapperToolkitRepo\DapperToolkit\DapperApps.Phone.Controls.Toolkit\DapperApps.Phone.Controls.Toolkit.csproj;neutral
+C:\Users\falven\OneDrive\Projects\Windows Phone\Windows Phone 8.0\ATFranco\App\ATFranco\ATFranco.csproj;neutral

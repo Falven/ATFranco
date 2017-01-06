@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-04-11T03:56:58" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'a803c91f-adcb-496f-b509-e0e5cfd54f9f' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco' -  (Package)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Medium" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading' -  (Class)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::_indicator' -  (Property)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::_loadingCount' -  (Property)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::ActualIsLoading' -  (Property)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::AppLoading' -  (Operation)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::Initialize' -  (Operation)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::Initialize::frame' -  (Parameter)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::IsDataManagerLoading' -  (Property)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::IsLoading' -  (Property)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::NotifyValueChanged' -  (Operation)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::OnDataManagerPropertyChanged' -  (Operation)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::OnDataManagerPropertyChanged::e' -  (Parameter)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::OnDataManagerPropertyChanged::sender' -  (Parameter)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::OnPropertyChanged' -  (Operation)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::OnPropertyChanged::propertyName' -  (Parameter)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::OnRootFrameNavigated' -  (Operation)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::OnRootFrameNavigated::e' -  (Parameter)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::OnRootFrameNavigated::sender' -  (Parameter)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::AppLoading::PropertyChanged' -  (Property)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::SingletonBase' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::ATFranco::SingletonBase&lt;AppLoading‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::Microsoft' -  (Package)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::Microsoft::Phone' -  (Package)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::Microsoft::Phone::Controls' -  (Package)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::Microsoft::Phone::Controls::PhoneApplicationFrame' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::Microsoft::Phone::Shell' -  (Package)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::Microsoft::Phone::Shell::ProgressIndicator' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::System' -  (Package)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::System::ComponentModel' -  (Package)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::System::ComponentModel::INotifyPropertyChanged' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::System::ComponentModel::PropertyChangedEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::System::ComponentModel::PropertyChangedEventHandler' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::System::Windows' -  (Package)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::System::Windows::Navigation' -  (Package)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ATFrancoModeling::System::Windows::Navigation::NavigationEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppLoading to ATFrancoModeling::System::ComponentModel::INotifyPropertyChanged (InterfaceRealization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppLoading to ATFrancoModeling::ATFranco::SingletonBase&lt;AppLoading‎&gt; (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::System::Windows::Navigation::NavigationEventArgs to ATFrancoModeling::System::EventArgs (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::System::ComponentModel::PropertyChangedEventArgs to ATFrancoModeling::System::EventArgs (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppSettings to ATFrancoModeling::ATFranco::SingletonBase&lt;AppLoading‎&gt; (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppLogger to ATFrancoModeling::ATFranco::SingletonBase&lt;AppLoading‎&gt; (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppTasks to ATFrancoModeling::ATFranco::SingletonBase&lt;AppLoading‎&gt; (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppTiles to ATFrancoModeling::ATFranco::SingletonBase&lt;AppLoading‎&gt; (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppImages to ATFrancoModeling::ATFranco::SingletonBase&lt;AppLoading‎&gt; (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppStorage to ATFrancoModeling::ATFranco::SingletonBase&lt;AppLoading‎&gt; (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppSettings to ATFrancoModeling::ATFranco::SingletonBase (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppLogger to ATFrancoModeling::ATFranco::SingletonBase (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppTasks to ATFrancoModeling::ATFranco::SingletonBase (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppTiles to ATFrancoModeling::ATFranco::SingletonBase (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppLoading to ATFrancoModeling::ATFranco::SingletonBase (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppImages to ATFrancoModeling::ATFranco::SingletonBase (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ATFrancoModeling::ATFranco::AppStorage to ATFrancoModeling::ATFranco::SingletonBase (Generalization)" />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="High" Text="(9) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-04-11T03:56:59" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
